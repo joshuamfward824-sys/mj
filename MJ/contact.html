@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Downloads | MJ Engineering</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="holographic-bg"></div>
+    <div class="dallas-skyline"></div>
+    
+    <nav class="main-nav">
+        <div class="logo">
+            <span class="logo-mj">MJ</span>
+            <span class="logo-eng">ENGINEERING</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="data-solutions.html">Data Solutions</a></li>
+            <li><a href="underground.html">Underground & Rental</a></li>
+            <li><a href="network-builder.html">Network Builder</a></li>
+            <li><a href="ai-assistant.html">AI Assistant</a></li>
+            <li><a href="contact.html" class="active">Contact & Downloads</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Contact & <span class="red-text">Downloads</span></h1>
+        <p>Get in touch and access our software suite</p>
+    </header>
+
+    <section class="contact-container">
+        <div class="contact-form-section">
+            <h2>Get In <span class="gold-text">Touch</span></h2>
+            <form class="contact-form holographic-card">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Interest</label>
+                    <select id="service" name="service">
+                        <option value="">Select a service</option>
+                        <option value="data">Data Solutions</option>
+                        <option value="underground">Underground & Rental</option>
+                        <option value="network">Network Builder</option>
+                        <option value="ai">AI Assistant</option>
+                        <option value="industry">Industry Solutions</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+
+        <div class="downloads-section">
+            <h2>Software <span class="gold-text">Downloads</span></h2>
+            <div class="download-grid">
+                <div class="download-card holographic-card">
+                    <h4>MJ Data Client</h4>
+                    <p>Desktop application for data analytics</p>
+                    <span class="version">v3.2.1</span>
+                    <button class="btn btn-secondary">Download</button>
+                </div>
+                <div class="download-card holographic-card">
+                    <h4>Network Configurator</h4>
+                    <p>Network planning and simulation tools</p>
+                    <span class="version">v2.5.0</span>
+                    <button class="btn btn-secondary">Download</button>
+                </div>
+                <div class="download-card holographic-card">
+                    <h4>Equipment Manager</h4>
+                    <p>Fleet tracking and rental management</p>
+                    <span class="version">v1.8.3</span>
+                    <button class="btn btn-secondary">Download</button>
+                </div>
+                <div class="download-card holographic-card">
+                    <h4>AI SDK</h4>
+                    <p>Developer tools for AI integration</p>
+                    <span class="version">v4.0.0</span>
+                    <button class="btn btn-secondary">Download</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="info-card holographic-card">
+            <h3>Dallas Headquarters</h3>
+            <p>1234 Industrial Blvd<br>
+            Dallas, TX 75207<br>
+            United States</p>
+            <p>Phone: +1 (214) 555-0199<br>
+            Email: info@mjengineering.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>MJ Engineering</h4>
+                <p>Dallas, Texas</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MJ Engineering. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
